@@ -11,23 +11,20 @@ header a:first-child {
 }
 
 a {
+  padding: 1rem 1.5rem;
   text-decoration: none;
 }
 
 header a:link, header a:visited {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 a:link, a:visited {
   color: rgba(255, 255, 255, 0.8);
 }
 
-header a:hover {
-  color: black;
-}
-
-header a:hover {
-  color: black;
+a:hover {
+  color: white;
 }
 
 header a:active {
@@ -40,10 +37,6 @@ nav {
   align-items: center;
   width: 960px;
   margin: 0 auto;
-}
-
-nav > a, nav ul > li {
-  margin-right: 20px;
 }
 
 nav ul {
